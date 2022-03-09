@@ -12,10 +12,10 @@ make && make run
 Expected output:
 
 ```
-Plain text: whatsapp:+1234567890
-Full hash: $2a$10$/sYCepb03BtaCFGbgAe7ZO0OPpoDdnBxH3easEl2UV20BU7gnigE6
-Salt (stored as Admiral Secret): $2a$10$/sYCepb03BtaCFGbgAe7ZO
-Hash without salt (to store in cassandra): 0OPpoDdnBxH3easEl2UV20BU7gnigE6
+Plain text: Foo bar baz qux
+Salt: $2a$10$/sYCepb03BtaCFGbgAe7ZO
+Full hash: $2a$10$/sYCepb03BtaCFGbgAe7ZOx6cZucf82oDn0DB5eLdQOmk/NIBSz4q
+Hash without salt: x6cZucf82oDn0DB5eLdQOmk/NIBSz4q
 
 Checking happy path. Expected: true. Actual: true
 Checking wrong string. Expected: false. Actual: false
